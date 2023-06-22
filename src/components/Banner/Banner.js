@@ -23,7 +23,7 @@ const Banner = () => {
             <span className="text-blue-400">React </span>
             and aspiring to become a{" "}
             <b className="text-designColor">Java Full Stack Developer.</b> With
-            a solid foundation in Java development and <b>3</b> years of
+            a solid foundation in Java development and <b>3+</b> years of
             experience, I have gained proficiency in building robust and
             scalable backend systems.
           </p>
