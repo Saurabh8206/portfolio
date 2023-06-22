@@ -15,7 +15,7 @@ const Banner = () => {
             <span className="text-designColor capitalize"> Saurabh Kohade</span>
           </h1>
           <h2 className="text-4xl font-bold text-white">
-            a <span>lorem2</span>
+            a <span>Java Full Stack Developer</span>
           </h2>
           <p className="text-base font-bodyFont leading-6 -tracking-tighter">
             A Software developer with a passion for full-stack development.
