@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f737861a.css",
-    "main.js": "/portfolio/static/js/main.95ea73e1.js",
-    "static/media/bannerImg.png": "/portfolio/static/media/bannerImg.caa3d5e2872e84d77cf2.png",
+    "main.css": "/portfolio/static/css/main.62ab2518.css",
+    "main.js": "/portfolio/static/js/main.0df12904.js",
+    "static/media/banner.png": "/portfolio/static/media/banner.9b635ba0fb95cfd0fdaf.png",
     "static/media/logo.png": "/portfolio/static/media/logo.f7412384e6d42db1cbf8.png",
     "static/media/contactImg.png": "/portfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
-    "static/media/testimonialOne.png": "/portfolio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
-    "static/media/projectThree.jpeg": "/portfolio/static/media/projectThree.47442baa3158613330ab.jpeg",
-    "static/media/testimonialTwo.png": "/portfolio/static/media/testimonialTwo.c6df2773c486964035d9.png",
-    "static/media/projectTwo.jpg": "/portfolio/static/media/projectTwo.1fabe2c8c93632187ee6.jpg",
+    "static/media/Weather.png": "/portfolio/static/media/Weather.6dc216154b41f1f9d461.png",
+    "static/media/springMongo.png": "/portfolio/static/media/springMongo.2c1272076d8b24f4cbf1.png",
     "index.html": "/portfolio/index.html",
-    "main.f737861a.css.map": "/portfolio/static/css/main.f737861a.css.map",
-    "main.95ea73e1.js.map": "/portfolio/static/js/main.95ea73e1.js.map"
+    "main.62ab2518.css.map": "/portfolio/static/css/main.62ab2518.css.map",
+    "main.0df12904.js.map": "/portfolio/static/js/main.0df12904.js.map"
   },
   "entrypoints": [
-    "static/css/main.f737861a.css",
-    "static/js/main.95ea73e1.js"
+    "static/css/main.62ab2518.css",
+    "static/js/main.0df12904.js"
   ]
 }
