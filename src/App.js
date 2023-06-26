@@ -1,7 +1,8 @@
 import "./App.css";
 import Banner from "./components/Banner/Banner";
-import Features from "./components/Features/Features";
+// import Features from "./components/Features/Features";
 import { Navbar } from "./components/navbar/Navbar";
+import Projects from "./components/projects/Projects";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <div className="max-w-screen-2xl mx-auto px-16">
         <Navbar />
         <Banner />
-        <Features />
+        {/* <Features /> */}
+        <Projects/>
       </div>
     </div>
   );

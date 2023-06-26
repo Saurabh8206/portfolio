@@ -1,11 +1,11 @@
 import React from "react";
-import { logo } from "../../assests/index";
+import { logo} from "../../assests/index";
 import { navLinksData } from "../../constants/index";
 import { Link } from "react-scroll";
 
 export const Navbar = () => {
   return (
-    <div className="w-full h-20 mx-auto flex justify-between items-center font-titleFont">
+    <div className="w-full h-24 mx-auto flex justify-between items-center font-titleFont border-b-gray-600 border-b-[1px] sticky bg-bodyColor z-50 top-0 ">
       <div className="flex items-center">
         <img
           src={logo}
