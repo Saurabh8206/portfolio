@@ -3,7 +3,6 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import {
   FaFacebookF,
   FaTwitter,
-  FaLinkedinIn,
   FaReact,
   FaGithub,
   FaJava,
@@ -26,8 +25,13 @@ export const LeftBanner = () => {
     deleteSpeed: 50,
     delaySpeed: 2000,
   });
+
+  const openLink = (url) => {
+    window.open(url);
+  };
+
   return (
-    <div className="w-1/2 flex flex-col gap-200">
+    <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-5xl font-bold text-white">
@@ -52,7 +56,7 @@ export const LeftBanner = () => {
           building robust and scalable backend systems.
         </p>
       </div>
-      <div className="flex justify-between mb-4">
+      <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
         <div>
           <br />
           <h2 className="text-base uppercase font-titleFont mb-4">
@@ -60,39 +64,34 @@ export const LeftBanner = () => {
           </h2>
           <div className="flex ga-4">
             <span className="bannerIcon">
-              <a
-                href="https://www.facebook.com/skohade1/"
-                target="_blank"
-                rel="FaceBook"
+              <button
+                onClick={() => openLink("https://www.facebook.com/skohade1/")}
+                className="bannerIcon"
               >
                 <FaFacebookF />
-              </a>
+              </button>
             </span>
-            <a
-              href="https://www.instagram.com/_saurabh_kohade/"
-              target="_blank"
-              rel="Instagram"
+            <button
+              onClick={() =>
+                openLink("https://www.instagram.com/_saurabh_kohade/")
+              }
               className="bannerIcon"
             >
               <FaInstagram />
-            </a>
-            <a
-              href="https://twitter.com/saurabh_kohade"
-              target="_blank"
-              rel="Twitter"
+            </button>
+            <button
+              onClick={() => openLink("https://twitter.com/saurabh_kohade")}
               className="bannerIcon"
             >
               <FaTwitter />
-            </a>
+            </button>
 
-            <a
-              href="https://github.com/Saurabh8206"
-              target="_blank"
-              rel="github"
+            <button
+              onClick={() => openLink("https://github.com/Saurabh8206")}
               className="bannerIcon"
             >
               <FaGithub />
-            </a>
+            </button>
           </div>
         </div>
         <div>

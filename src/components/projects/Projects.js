@@ -3,7 +3,6 @@ import Title from "../Layouts/Title";
 import { ProjectCard } from "./ProjectCard";
 import {
   Fullstack,
-  springMongo,
   Spotify,
   Weather,
   restraunt,

@@ -1,6 +1,5 @@
 import React from "react";
 import { BsGithub } from "react-icons/bs";
-import { FaGlobe } from "react-icons/fa";
 
 export const ProjectCard = ({ title, des, src, githubUrl }) => {
   return (
@@ -19,14 +18,12 @@ export const ProjectCard = ({ title, des, src, githubUrl }) => {
               {title}
             </h3>
             <div className="flex gap-2">
-              <a
-                href={githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                onClick={githubUrl}
                 className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer"
               >
                 <BsGithub />
-              </a>
+              </button>
               {/* <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
                 <FaGlobe />
               </span> */}
