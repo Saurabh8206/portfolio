@@ -7,7 +7,9 @@ const Resume = () => {
   const [educationData, setEducationData] = useState(false);
   const [skillData, setSkillData] = useState(true);
   const [experienceData, setExperienceData] = useState(false);
-
+  const openLink = (url) => {
+    window.open(url);
+  };
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-gray">
       <div className="flex justify-center items-center text-center">
@@ -66,13 +68,16 @@ const Resume = () => {
           title=" "
           des={
             <>
-              <a
-                href="https://1drv.ms/b/s!Aqyskr-hyCwZdlFJH3urJBoAaJM?e=UODI4R"
-                target="_blank"
+              <button
+                onClick={() =>
+                  openLink(
+                    "https://1drv.ms/b/s!Aqyskr-hyCwZdlFJH3urJBoAaJM?e=UODI4R"
+                  )
+                }
                 className="text-designColor underline"
               >
                 Download
-              </a>
+              </button>
             </>
           }
         />
