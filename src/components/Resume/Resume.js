@@ -61,6 +61,22 @@ const Resume = () => {
       {skillData && <Skills />}
       {educationData && <Education />}
       {experienceData && <Experience />}
+      <div className="flex justify-center items-center text-center">
+        <Title
+          title=" "
+          des={
+            <>
+              <a
+                href="https://1drv.ms/b/s!Aqyskr-hyCwZdlFJH3urJBoAaJM?e=UODI4R"
+                target="_blank"
+                className="text-designColor underline"
+              >
+                Download
+              </a>
+            </>
+          }
+        />
+      </div>
     </section>
   );
 };
